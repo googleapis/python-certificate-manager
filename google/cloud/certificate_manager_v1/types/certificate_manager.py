@@ -1014,7 +1014,7 @@ class DnsAuthorization(proto.Message):
         Attributes:
             name (str):
                 Output only. Fully qualified name of the DNS Resource
-                Record. e.g. ``_acme-challenge.example.com.``
+                Record. e.g. ``_acme-challenge.example.com``
             type_ (str):
                 Output only. Type of the DNS Resource Record.
                 Currently always set to "CNAME".
