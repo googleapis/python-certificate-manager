@@ -536,7 +536,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> pagers.ListCertificatesPager:
         r"""Lists Certificates in a given project and location.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -636,7 +637,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> certificate_manager.Certificate:
         r"""Gets details of a single Certificate.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -728,7 +730,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -853,7 +856,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Updates a Certificate.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -969,7 +973,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Deletes a single Certificate.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1086,7 +1091,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1186,7 +1192,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> certificate_manager.CertificateMap:
         r"""Gets details of a single CertificateMap.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1281,7 +1288,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1406,7 +1414,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Updates a CertificateMap.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1526,7 +1535,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         method.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1646,7 +1656,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1751,7 +1762,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> certificate_manager.CertificateMapEntry:
         r"""Gets details of a single CertificateMapEntry.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1848,7 +1860,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         and location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -1986,7 +1999,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Updates a CertificateMapEntry.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2113,7 +2127,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Deletes a single CertificateMapEntry.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2235,7 +2250,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2335,7 +2351,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> certificate_manager.DnsAuthorization:
         r"""Gets details of a single DnsAuthorization.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2431,7 +2448,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
         location.
 
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2559,7 +2577,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Updates a DnsAuthorization.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
@@ -2678,7 +2697,8 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
     ) -> operation.Operation:
         r"""Deletes a single DnsAuthorization.
 
-        .. code-block:: python
+
+        .. code-block::
 
             from google.cloud import certificate_manager_v1
 
