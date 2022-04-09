@@ -16,7 +16,7 @@
 from collections import OrderedDict
 import os
 import re
-from typing import Dict, Optional, Sequence, Tuple, Type, Union
+from typing import Dict, Mapping, Optional, Sequence, Tuple, Type, Union
 import pkg_resources
 
 from google.api_core import client_options as client_options_lib
@@ -586,7 +586,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_list_certificates():
                 # Create a client
@@ -694,7 +694,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_get_certificate():
                 # Create a client
@@ -791,7 +791,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_create_certificate():
                 # Create a client
@@ -921,7 +921,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_update_certificate():
                 # Create a client
@@ -1042,7 +1042,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_delete_certificate():
                 # Create a client
@@ -1164,7 +1164,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_list_certificate_maps():
                 # Create a client
@@ -1272,7 +1272,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_get_certificate_map():
                 # Create a client
@@ -1372,7 +1372,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_create_certificate_map():
                 # Create a client
@@ -1502,7 +1502,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_update_certificate_map():
                 # Create a client
@@ -1627,7 +1627,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_delete_certificate_map():
                 # Create a client
@@ -1752,7 +1752,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_list_certificate_map_entries():
                 # Create a client
@@ -1865,7 +1865,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_get_certificate_map_entry():
                 # Create a client
@@ -1967,7 +1967,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_create_certificate_map_entry():
                 # Create a client
@@ -2110,7 +2110,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_update_certificate_map_entry():
                 # Create a client
@@ -2242,7 +2242,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_delete_certificate_map_entry():
                 # Create a client
@@ -2369,7 +2369,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_list_dns_authorizations():
                 # Create a client
@@ -2477,7 +2477,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_get_dns_authorization():
                 # Create a client
@@ -2578,7 +2578,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_create_dns_authorization():
                 # Create a client
@@ -2711,7 +2711,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_update_dns_authorization():
                 # Create a client
@@ -2835,7 +2835,7 @@ class CertificateManagerClient(metaclass=CertificateManagerClientMeta):
 
         .. code-block:: python
 
-            from google.cloud import certificate_manager_v1
+                    from google.cloud import certificate_manager_v1
 
             def sample_delete_dns_authorization():
                 # Create a client
