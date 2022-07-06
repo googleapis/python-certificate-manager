@@ -6794,7 +6794,6 @@ def test_certificate_manager_transport_auth_adc(transport_class):
     [
         transports.CertificateManagerGrpcTransport,
         transports.CertificateManagerGrpcAsyncIOTransport,
-        transports.CertificateManagerRestTransport,
     ],
 )
 def test_certificate_manager_transport_auth_gdch_credentials(transport_class):
