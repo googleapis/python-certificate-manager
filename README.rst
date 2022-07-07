@@ -3,7 +3,7 @@ Python Client for Certificate Manager API API
 
 |preview| |pypi| |versions|
 
-`Certificate Manager API API`_: 
+`Certificate Manager API API`_: lets you acquire and manage TLS (SSL) certificates for use with Cloud Load Balancing.
 
 - `Client Library Documentation`_
 - `Product Documentation`_
