@@ -13,21 +13,19 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-import proto  # type: ignore
-
 from google.protobuf import duration_pb2  # type: ignore
 from google.protobuf import timestamp_pb2  # type: ignore
-
+import proto  # type: ignore
 
 __protobuf__ = proto.module(
-    package='google.cloud.certificatemanager.v1',
+    package="google.cloud.certificatemanager.v1",
     manifest={
-        'ListCertificateIssuanceConfigsRequest',
-        'ListCertificateIssuanceConfigsResponse',
-        'GetCertificateIssuanceConfigRequest',
-        'CreateCertificateIssuanceConfigRequest',
-        'DeleteCertificateIssuanceConfigRequest',
-        'CertificateIssuanceConfig',
+        "ListCertificateIssuanceConfigsRequest",
+        "ListCertificateIssuanceConfigsResponse",
+        "GetCertificateIssuanceConfigRequest",
+        "CreateCertificateIssuanceConfigRequest",
+        "DeleteCertificateIssuanceConfigRequest",
+        "CertificateIssuanceConfig",
     },
 )
 
@@ -105,7 +103,7 @@ class ListCertificateIssuanceConfigsResponse(proto.Message):
     certificate_issuance_configs = proto.RepeatedField(
         proto.MESSAGE,
         number=1,
-        message='CertificateIssuanceConfig',
+        message="CertificateIssuanceConfig",
     )
     next_page_token = proto.Field(
         proto.STRING,
@@ -159,7 +157,7 @@ class CreateCertificateIssuanceConfigRequest(proto.Message):
     certificate_issuance_config = proto.Field(
         proto.MESSAGE,
         number=3,
-        message='CertificateIssuanceConfig',
+        message="CertificateIssuanceConfig",
     )
 
 
@@ -217,6 +215,7 @@ class CertificateIssuanceConfig(proto.Message):
             Required. The key algorithm to use when
             generating the private key.
     """
+
     class KeyAlgorithm(proto.Enum):
         r"""The type of keypair to generate."""
         KEY_ALGORITHM_UNSPECIFIED = 0
@@ -256,8 +255,8 @@ class CertificateIssuanceConfig(proto.Message):
         certificate_authority_service_config = proto.Field(
             proto.MESSAGE,
             number=1,
-            oneof='kind',
-            message='CertificateIssuanceConfig.CertificateAuthorityConfig.CertificateAuthorityServiceConfig',
+            oneof="kind",
+            message="CertificateIssuanceConfig.CertificateAuthorityConfig.CertificateAuthorityServiceConfig",
         )
 
     name = proto.Field(
